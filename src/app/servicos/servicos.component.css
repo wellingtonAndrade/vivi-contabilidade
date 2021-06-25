@@ -1,0 +1,66 @@
+.background img{
+  width: 100vw;
+  height: 100vh;
+  filter: brightness(60%);
+}
+
+.layout-servicos{
+  animation: 1.5s move;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-top: 150px;
+}
+
+@keyframes move {
+  from {
+      left: -100px;
+  }
+  to {
+      right: 100px;
+  }
+}
+
+mat-card {
+  background-color: black ;
+  filter: brightness(initial);
+  width: 800px;
+  height: 200px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  background-color: white;
+  filter: opacity(80%);
+}
+
+mat-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.detalhe-servicos{
+  display: flex;
+}
+
+.detalhe-titulo{
+  position: relative;
+  margin-left: 30px;
+}
+
+.detalhe-descricao{
+  text-align: justify;
+  max-height: 100px;
+  overflow:auto;
+}
+
+.detalhe-descricao p{
+  margin-right: 5px;
+}
+
+.grow:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}

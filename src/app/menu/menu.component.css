@@ -1,0 +1,27 @@
+mat-toolbar {
+  color:black;
+  background-color: white;
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.example-spacer {
+  flex: auto;
+}
+
+#logo {
+  border-radius: 20px;
+  padding-top: 30px;
+  height: 100px;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.button-row button{
+  font-size: 20px;
+  padding: 30px;
+}
+
